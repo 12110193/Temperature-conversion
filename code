@@ -4,8 +4,8 @@ public class Interface extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+   
+    
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -123,22 +123,22 @@ public class Interface extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {
         
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         jTextField1.setText("");
         jTextField2.setText("");
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
         System.exit(0);
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         
         String box1 = (String)jComboBox1.getSelectedItem();
         String box2 = (String)jComboBox2.getSelectedItem();
@@ -165,7 +165,7 @@ public class Interface extends javax.swing.JFrame {
             
             jTextField2.setText(String.valueOf(c));
         }
-        //----------------------------------------------------------------------
+        
         
         if(box1.equals("Fahrenheit") && box2.equals("Celsius"))
         {
@@ -189,7 +189,7 @@ public class Interface extends javax.swing.JFrame {
             
             jTextField2.setText(String.valueOf(f));
         }
-        //----------------------------------------------------------------------
+        
         if(box1.equals("Kelvin") && box2.equals("Celsius"))
        {
            double k = Double.parseDouble(jTextField1.getText());
@@ -219,7 +219,7 @@ public class Interface extends javax.swing.JFrame {
         
         
         
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 
     public static void main(String args[]) {
         
@@ -230,7 +230,7 @@ public class Interface extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -240,5 +240,5 @@ public class Interface extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
-    // End of variables declaration//GEN-END:variables
+   
 }
